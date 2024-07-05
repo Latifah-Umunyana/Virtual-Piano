@@ -1,0 +1,300 @@
+
+
+body{
+    background-image: url(images/body-bg.jpg);
+    }
+    
+    .keys{
+    border: solid 1px;
+    padding: 450px 50px 10px 35px;
+    background-color: white;
+    border-radius: 10px;
+    }
+    
+    .black{
+    position: absolute;
+    margin-left: -30px;
+    border: solid 1px;
+    padding: 250px 25px 10px 25px;
+    background-color: black;
+    border-radius: 10px;
+    
+    }
+    
+    button:active{
+    
+    background-color: rgb(223, 216, 216);
+    
+    }
+    
+    
+    #background{
+    
+    padding-top: 10px;
+    padding: 50px 280px 45px 60px;
+    background-image: url(images/wood_bg.jpeg);
+    width: 750px;
+    }
+    
+    #saveFile{
+    width: 50px;
+    height: 50px;
+    
+    }
+    
+    #save{
+    
+    border: solid 1px rgb(38, 32, 32) ;
+    background-color: rgb(38, 32, 32);
+    border-radius: 5px;
+    }
+    
+
+#save:active{
+
+background-color: antiquewhite;
+
+}
+
+    #play{
+    
+    border: solid 1px rgb(38, 32, 32);
+    background-color: rgb(38, 32, 32);
+    border-radius: 5px;
+    
+    }
+
+    #value{
+color: white;
+    }
+
+    #volume-control::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      background-color: black;
+      border-radius: 30px;
+      width: 35px;
+      height: 25px;
+    }
+
+
+    #volume-control{
+      -webkit-appearance: none;
+      border-radius: 20px;
+transform: rotate(270deg);
+width:600px;
+margin-top: 15%;
+height: 20px;
+
+    }
+
+    #play:active{
+
+      background-color: antiquewhite
+
+    }
+    
+    #line{
+    border: solid 7px rgb(238, 168, 37);
+    height: 480px;
+    width: 870px;
+    display: flex;
+    gap: 0.1px;
+    padding: 50px;
+    }
+    
+    #page{
+    
+    display: flex;
+    gap: 5px;
+    
+    }
+    
+    #logo{
+    padding: 5px 10px 10px 400px;
+    width: 200px;
+    height: 70px;
+    }
+  
+    #playButton{
+
+      width: 50px;
+      height: 50px;
+
+    }
+
+    #container{
+
+display: flex;
+/* gap: 100px; */
+
+    }
+
+
+    @media screen and(min-width:480px) and(max-width:320px){
+      body{
+          margin-left: none;
+          }
+          .keys{
+          border: solid 1px;
+          /* margin-top: -50px; */
+          padding: 30px 5px 5px 10px;
+          background-color: white;
+          border-radius: 5px;
+          }
+          .black{
+          position: absolute;
+          top: 50px;
+          margin-left: -30px;
+          border: solid 1px;
+          padding: 70px 5px 5px 10px;
+          background-color: black;
+          border-radius: 5px;
+          }
+          button:active{
+          background-color: rgb(223, 216, 216);
+          }
+          #list{
+          padding-top: 5px;
+          padding: 8px 40px 5px 5px;
+          background-image: url(images/wood-bg.jpeg);
+          width: 80px;
+          }
+          #saveFile{
+          width: 5px;
+          height: 5px;
+          }
+          #save{
+          border: solid 1px white ;
+          }
+          #playButton{
+            height: 5px;
+            width: 5px;
+          }
+          #play{
+          border: solid 1px white;
+          }
+          #line{
+          border: solid 7px rgb(238, 168, 37);
+          height: 70px;
+          width: 80px;
+          display: wrap;
+          gap: 0.1px;
+          padding: 5px;
+          }
+          #page{
+          display: wrap;
+          padding:10px 40px;
+          }
+      }
+@media screen and(min-width:481px)and(max-width:768px){
+body{
+  margin-left: 10px;
+  }
+  .keys{
+  border: solid 1px;
+  /* margin-top: -50px; */
+  padding: 300px 20px 5px 15px;
+  background-color: white;
+  border-radius: 5px;
+  }
+  .black{
+  position: absolute;
+  top: 80px;
+  margin-left: -30px;
+  border: solid 1px;
+  padding: 80px 10px 5px 10px;
+  background-color: black;
+  border-radius: 5px;
+  }
+  button:active{
+  background-color: rgb(223, 216, 216);
+  }
+  #list{
+  padding-top: 8px;
+  padding: 20px 80px 30px 30px;
+  background-image: url(images/wood-bg.jpeg);
+  width: 400px;
+  }
+  #saveFile{
+  width: 30px;
+  height: 20px;
+  }
+  #save{
+  border: solid 1px white ;
+  }
+  #playButton{
+    height: 20px;
+    width: 30px;
+  }
+  #play{
+  border: solid 1px white;
+  }
+  #line{
+  border: solid 7px rgb(238, 168, 37);
+  height: 100px;
+  width: 200px;
+  display: wrap;
+  gap: 0.1px;
+  padding: 20px;
+  }
+  #page{
+  display: wrap;
+  padding:38px 80px;
+  }
+}
+@media screen and(min-width:600px)and(max-width:1025px){
+body{
+  margin-left: 30px;
+  }
+  .keys{
+  border: solid 1px;
+  /* margin-top: -50px; */
+  padding: 80px 40px 8px 15px;
+  background-color: white;
+  border-radius: 5px;
+  }
+  .black{
+  position: absolute;
+  top: 120px;
+  margin-left: -30px;
+  border: solid 1px;
+  padding: 80px 10px 10px 10px;
+  background-color: black;
+  border-radius: 10px;
+  }
+  button:active{
+  background-color: rgb(223, 216, 216);
+  }
+  #list{
+  padding-top: 8px;
+  padding: 30px 70px 20px 30px;
+  background-image: url(images/wood-bg.jpeg);
+  width: 200px;
+  }
+  #saveFile{
+  width: 20px;
+  height: 30px;
+  }
+  #save{
+  border: solid 1px white ;
+  }
+  #playButton{
+    height: 20px;
+    width: 10px;
+  }
+  #play{
+  border: solid 1px white;
+  }
+  #line{
+  border: solid 7px rgb(238, 168, 37);
+  height: 200px;
+  width: 200px;
+  display: wrap;
+  gap: 0.1px;
+  padding: 30px;
+  }
+  #page{
+  display: wrap;
+  padding:30px 80px;
+  }
+}
